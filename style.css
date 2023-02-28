@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 17%;
+    margin-left: 135px;
+}
+
+ul{
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;;
+    color: white;
+    font-size: 16px; 
+    list-style-type: none;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 170px;
+    
+}
+li{
+    margin-top: 10px;
+}
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    display: flex;
+}
+.linkar{
+    text-decoration: none;   
+}
+.linkar:hover{
+    color: #18D760;
+    cursor: pointer;
+}
+a{
+    color: white ;
+}
