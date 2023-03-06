@@ -241,3 +241,47 @@ h2{
     padding-top:3px;
     padding-left: 5px;
 }
+.planos{
+    display: flex;
+    margin: 50px 10px 26px 120px;
+    background-color: white;
+    padding: 10px 10px 0px 10px;
+    border-radius: 8px;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+
+}
+.individual{    
+    width:270px;
+    background-color: rgb(46, 119, 208);
+    border-radius: 4px;
+    margin: 8px 8px 8px 8px;
+    padding-top: 0px;
+    border: 1px solid rgb(46,119,208);
+}
+.individual h3{
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.unico{
+background-color: white;
+color: rgb(46, 119, 208);
+border-radius: 4px;
+border: 1px solid rgb(46, 119, 208);
+font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+width: 210px;
+padding-left: 5px;
+margin: 8px 8px 8px 8px;
+}
+.unico h3{
+    color:rgb(46, 119, 208);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin: 5px 0px;
+    text-align: left;
+    letter-spacing: 0px;
+}
