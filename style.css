@@ -247,6 +247,7 @@ h2{
     font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
     gap: 8px;
     margin-left: 100px;
+    padding-bottom: 8%;
 }
 .planosajuste{
     border-radius: 8px;
@@ -257,7 +258,7 @@ h2{
     padding: 15px 15px 15px 15px;
     box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     max-width: 320px;
 }
 #planoindividual{
@@ -268,15 +269,12 @@ h2{
     background-color: rgb(46, 119, 208);
     border-radius: 4px;
     margin: 0px 4px 10px 0px;
-    padding: 1px 3px;
-    padding-top: 10px;
 }
 .individual1{    
     width:210px;
     background-color: rgb(46, 119, 208);
     border-radius: 4px;
     margin: 0px 4px 10px 0px;
-    padding: 1px 3px;
 }
 .individual1 h3{
     color: white;
@@ -371,13 +369,65 @@ margin: 0px 4px 10px 0px;
 }
 .termosplano p{
     color: rgb(83, 83, 83);
-    margin-bottom: 70px;
     font-size: 12px;
 }
 .termosplano{
-    margin-top: 50px;
-    border-radius: 15px
+    margin-top: 50px;    
+
 }
 .bottomplano a{
     align-items: center;
+}
+.contatos{
+    background-color: black;
+    display: flex;
+    padding: 20px;
+}
+.logo2 img{
+    max-width: 100%;
+    margin-left: 135px;
+}
+.logo2{
+    display: flex;
+    padding: 20px;
+    padding-top: 60px;
+    padding-right: 400px;
+
+}
+.logo2 a{
+    height: 40px;
+    width: 132px;
+}
+.final1{
+    color: #919496;
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 170px;
+    align-items: center;
+    height: 100%;
+}
+.final1 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    margin-right: 300px;
+    align-items: center;
+    height: 100%;
+    margin-top: 70px;
+}
+.final2{
+    color: white;
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    display: flex;
+    margin-right: 170px;
+    align-items: center;
+    height: 100%;
+    padding: 20px 0px 5px;
 }
