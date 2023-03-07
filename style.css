@@ -243,28 +243,33 @@ h2{
 }
 .planos{
     display: flex;
-    margin: 50px 10px 26px 120px;
     background-color: white;
-    padding: 10px 10px 0px 10px;
+    margin: 50px 10px 26px 120px;
+    padding: 15px 15px 15px 15px;
     border-radius: 8px;
     box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+.planosajuste{
+    border-radius: 8px;
+    
 
 }
 .individual{    
-    width:270px;
+    width:260px;
     background-color: rgb(46, 119, 208);
     border-radius: 4px;
-    margin: 8px 8px 8px 8px;
-    padding-top: 0px;
-    border: 1px solid rgb(46,119,208);
+    margin: 0px 4px 10px 0px;
+    padding: 1px 3px;
 }
 .individual h3{
     text-align: left;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     padding-left: 5px;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 .unico{
 background-color: white;
@@ -274,7 +279,7 @@ border: 1px solid rgb(46, 119, 208);
 font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
 width: 210px;
 padding-left: 5px;
-margin: 8px 8px 8px 8px;
+margin: 0px 4px 10px 0px;
 }
 .unico h3{
     color:rgb(46, 119, 208);
@@ -284,4 +289,48 @@ margin: 8px 8px 8px 8px;
     margin: 5px 0px;
     text-align: left;
     letter-spacing: 0px;
+}
+.plano h3{
+   font-size: 24px;
+   font-weight: bold;
+   line-height: 24px;
+   text-align: left; 
+}
+.plano p{
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+}
+.listar{
+    display: flex;
+}
+.listard{
+    display: flex;
+    padding-bottom: 165px;
+}
+.bottomplano{
+    border-radius: 500px;
+    background-color: black;
+    padding-block: 14px;
+    padding-inline: 32px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    border: 3px solid black;
+    cursor: pointer;
+    text-decoration: none;  
+    max-width: 100%; 
+    padding: 12px 50px 15px 50px;
+}
+.termosplano a{
+    text-decoration: underline;
+    font-size:12px ;
+    color: rgb(83, 83, 83);   
+}
+.termosplano p{
+    color: rgb(83, 83, 83);
+    margin-bottom: 70px;
+    font-size: 12px;
+}
+.termosplano{
+    margin-top: 50px;
+    border-radius: 15px
 }
