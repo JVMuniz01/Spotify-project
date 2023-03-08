@@ -381,22 +381,22 @@ margin: 0px 4px 10px 0px;
 .contatos{
     background-color: black;
     display: flex;
-    padding: 20px;
+    gap: 60px;
 }
 .logo2 img{
     max-width: 100%;
-    margin-left: 135px;
 }
 .logo2{
     display: flex;
-    padding: 20px;
-    padding-top: 60px;
-    padding-right: 400px;
+    height:27%;
+    width: 27%;
 
 }
 .logo2 a{
-    height: 40px;
-    width: 132px;
+    margin: 20px;
+    margin-top: 60px;
+    margin-left: 135px;
+    padding: 35px;
 }
 .final1{
     color: #919496;
@@ -406,18 +406,13 @@ margin: 0px 4px 10px 0px;
     font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
     display: flex;
     justify-content: space-between;
-    margin-right: 170px;
     align-items: center;
     height: 100%;
 }
 .final1 ul{
     display: flex;
     list-style-type: none;
-    gap: 50px;
-    margin-right: 300px;
     align-items: center;
-    height: 100%;
-    margin-top: 70px;
 }
 .final2{
     color: white;
@@ -426,8 +421,16 @@ margin: 0px 4px 10px 0px;
     text-transform: uppercase;
     font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
     display: flex;
-    margin-right: 170px;
+    margin-right: 50px;
     align-items: center;
     height: 100%;
-    padding: 20px 0px 5px;
+    margin: 25px 0px 0px;
+    text-decoration: none;   
+}
+.info{
+margin-top: 80px;
+}
+.final2:hover{
+    color:#18D760 ;
+
 }
